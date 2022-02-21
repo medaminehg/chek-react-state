@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background: #000000
 }
 
 .App-logo {
@@ -11,6 +12,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.Add{
+  z-index: 2202650000 !important;
+  text-align: center !important;
+  margin-top: 30% !important;
 }
 
 .App-header {
@@ -25,7 +31,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: hsla(0, 0%, 96%, 0.863);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +41,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+input {
+  display: none;
+}
+/* .img{
+  height: 180px !important
+} */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+   justify-content: center;
+}
+/* .cards{
+  height: 450px;
+} */
+.sta{
+  color: yellow;
+}
+.star{
+  color: gray;
+}
+.AddBtn{
+  position: fixed;
+  top: 90%;
+  left: 90%;
+/* background-color: aqua !important; */
+}
+.Nav.Link{
+  color: red !important;
+}
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000000 !important;
 }
